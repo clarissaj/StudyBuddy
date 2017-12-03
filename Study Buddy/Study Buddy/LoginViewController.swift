@@ -20,20 +20,28 @@ class LoginViewController : UIViewController {
     
     
     
-    @IBAction func loginPressed(_ sender: UIButton) {
+    @IBAction func loginPressed(_ sender: UIButton)
+    {
         
-        if usernameField.text != "" || pwField.text != "" {
+        if usernameField.text != "" || pwField.text != ""
+        {
             
-            for student in students {
-                if student.username == usernameField.text {
-                    if student.password == pwField.text {
+            for student in students
+            {
+                if student.username == usernameField.text
+                {
+                    if student.password == pwField.text
+                    {
                         //clear fields
                         usernameField.text = ""
                         pwField.text = ""
                         
                         self.tabBarController?.selectedIndex = 1
                         global.setUser(student.username!)
-                    } else {
+                        
+                    }
+                    else
+                    {
                         let action = UIAlertAction(title: "OK", style: .default)
                         
                         let alert = UIAlertController(title: "Invalid Password", message: "You have entered an invalid password.", preferredStyle: .alert)
@@ -41,7 +49,9 @@ class LoginViewController : UIViewController {
                         alert.addAction(action)
                         present(alert, animated: true)
                     }
-                } else {
+                }
+                else
+                {
                     let action = UIAlertAction(title: "OK", style: .default)
                     
                     let alert = UIAlertController(title: "Invalid Username", message: "You have entered an invalid username.", preferredStyle: .alert)
