@@ -38,7 +38,6 @@ class LoginViewController : UIViewController {
                         
                         self.tabBarController?.selectedIndex = 1
                         global.setUser(student.username!)
-                        
                     }
                     else
                     {
@@ -52,6 +51,7 @@ class LoginViewController : UIViewController {
                 }
                 else
                 {
+                    //print("else")
                     let action = UIAlertAction(title: "OK", style: .default)
                     
                     let alert = UIAlertController(title: "Invalid Username", message: "You have entered an invalid username.", preferredStyle: .alert)
