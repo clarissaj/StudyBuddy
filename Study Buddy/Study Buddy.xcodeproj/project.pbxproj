@@ -15,28 +15,9 @@
 		6B904F4C1FD335AA00792320 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B904F4A1FD335AA00792320 /* Main.storyboard */; };
 		6B904F4E1FD335AA00792320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B904F4D1FD335AA00792320 /* Assets.xcassets */; };
 		6B904F511FD335AA00792320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B904F4F1FD335AA00792320 /* LaunchScreen.storyboard */; };
-		6B904F5C1FD335AA00792320 /* Study_BuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B904F5B1FD335AA00792320 /* Study_BuddyTests.swift */; };
-		6B904F671FD335AA00792320 /* Study_BuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B904F661FD335AA00792320 /* Study_BuddyUITests.swift */; };
 		6B904F751FD337B400792320 /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B904F741FD337B400792320 /* RoomsViewController.swift */; };
 		6B904F7B1FD3409B00792320 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B904F7A1FD3409B00792320 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6B904F581FD335AA00792320 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6B904F3B1FD335A900792320 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6B904F421FD335A900792320;
-			remoteInfo = "Study Buddy";
-		};
-		6B904F631FD335AA00792320 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6B904F3B1FD335A900792320 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6B904F421FD335A900792320;
-			remoteInfo = "Study Buddy";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6B6A22141FD35D790056FCF2 /* CreateRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateRoomViewController.swift; sourceTree = "<group>"; };
@@ -49,32 +30,12 @@
 		6B904F4D1FD335AA00792320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B904F501FD335AA00792320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B904F521FD335AA00792320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B904F571FD335AA00792320 /* Study BuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Study BuddyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B904F5B1FD335AA00792320 /* Study_BuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_BuddyTests.swift; sourceTree = "<group>"; };
-		6B904F5D1FD335AA00792320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B904F621FD335AA00792320 /* Study BuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Study BuddyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B904F661FD335AA00792320 /* Study_BuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_BuddyUITests.swift; sourceTree = "<group>"; };
-		6B904F681FD335AA00792320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B904F741FD337B400792320 /* RoomsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
 		6B904F7A1FD3409B00792320 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6B904F401FD335A900792320 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6B904F541FD335AA00792320 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6B904F5F1FD335AA00792320 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				6B904F451FD335A900792320 /* Study Buddy */,
-				6B904F5A1FD335AA00792320 /* Study BuddyTests */,
-				6B904F651FD335AA00792320 /* Study BuddyUITests */,
 				6B904F441FD335A900792320 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,8 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				6B904F431FD335A900792320 /* Study Buddy.app */,
-				6B904F571FD335AA00792320 /* Study BuddyTests.xctest */,
-				6B904F621FD335AA00792320 /* Study BuddyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,24 +79,6 @@
 			path = "Study Buddy";
 			sourceTree = "<group>";
 		};
-		6B904F5A1FD335AA00792320 /* Study BuddyTests */ = {
-			isa = PBXGroup;
-			children = (
-				6B904F5B1FD335AA00792320 /* Study_BuddyTests.swift */,
-				6B904F5D1FD335AA00792320 /* Info.plist */,
-			);
-			path = "Study BuddyTests";
-			sourceTree = "<group>";
-		};
-		6B904F651FD335AA00792320 /* Study BuddyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6B904F661FD335AA00792320 /* Study_BuddyUITests.swift */,
-				6B904F681FD335AA00792320 /* Info.plist */,
-			);
-			path = "Study BuddyUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,42 +99,6 @@
 			productReference = 6B904F431FD335A900792320 /* Study Buddy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6B904F561FD335AA00792320 /* Study BuddyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6B904F6E1FD335AA00792320 /* Build configuration list for PBXNativeTarget "Study BuddyTests" */;
-			buildPhases = (
-				6B904F531FD335AA00792320 /* Sources */,
-				6B904F541FD335AA00792320 /* Frameworks */,
-				6B904F551FD335AA00792320 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6B904F591FD335AA00792320 /* PBXTargetDependency */,
-			);
-			name = "Study BuddyTests";
-			productName = "Study BuddyTests";
-			productReference = 6B904F571FD335AA00792320 /* Study BuddyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		6B904F611FD335AA00792320 /* Study BuddyUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6B904F711FD335AA00792320 /* Build configuration list for PBXNativeTarget "Study BuddyUITests" */;
-			buildPhases = (
-				6B904F5E1FD335AA00792320 /* Sources */,
-				6B904F5F1FD335AA00792320 /* Frameworks */,
-				6B904F601FD335AA00792320 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6B904F641FD335AA00792320 /* PBXTargetDependency */,
-			);
-			name = "Study BuddyUITests";
-			productName = "Study BuddyUITests";
-			productReference = 6B904F621FD335AA00792320 /* Study BuddyUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -208,20 +111,8 @@
 				TargetAttributes = {
 					6B904F421FD335A900792320 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = S9W5XEJS2G;
+						DevelopmentTeam = 74BZ4T5NXU;
 						ProvisioningStyle = Automatic;
-					};
-					6B904F561FD335AA00792320 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = S9W5XEJS2G;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 6B904F421FD335A900792320;
-					};
-					6B904F611FD335AA00792320 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = S9W5XEJS2G;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 6B904F421FD335A900792320;
 					};
 				};
 			};
@@ -239,8 +130,6 @@
 			projectRoot = "";
 			targets = (
 				6B904F421FD335A900792320 /* Study Buddy */,
-				6B904F561FD335AA00792320 /* Study BuddyTests */,
-				6B904F611FD335AA00792320 /* Study BuddyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -253,20 +142,6 @@
 				6B904F511FD335AA00792320 /* LaunchScreen.storyboard in Resources */,
 				6B904F4E1FD335AA00792320 /* Assets.xcassets in Resources */,
 				6B904F4C1FD335AA00792320 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6B904F551FD335AA00792320 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6B904F601FD335AA00792320 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,36 +162,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B904F531FD335AA00792320 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6B904F5C1FD335AA00792320 /* Study_BuddyTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6B904F5E1FD335AA00792320 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6B904F671FD335AA00792320 /* Study_BuddyUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6B904F591FD335AA00792320 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6B904F421FD335A900792320 /* Study Buddy */;
-			targetProxy = 6B904F581FD335AA00792320 /* PBXContainerItemProxy */;
-		};
-		6B904F641FD335AA00792320 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6B904F421FD335A900792320 /* Study Buddy */;
-			targetProxy = 6B904F631FD335AA00792320 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6B904F4A1FD335AA00792320 /* Main.storyboard */ = {
@@ -435,7 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = S9W5XEJS2G;
+				DEVELOPMENT_TEAM = 74BZ4T5NXU;
 				INFOPLIST_FILE = "Study Buddy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.fiu.com.Study-Buddy";
@@ -448,70 +294,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = S9W5XEJS2G;
+				DEVELOPMENT_TEAM = 74BZ4T5NXU;
 				INFOPLIST_FILE = "Study Buddy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.fiu.com.Study-Buddy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		6B904F6F1FD335AA00792320 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = S9W5XEJS2G;
-				INFOPLIST_FILE = "Study BuddyTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.fiu.com.Study-BuddyTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Study Buddy.app/Study Buddy";
-			};
-			name = Debug;
-		};
-		6B904F701FD335AA00792320 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = S9W5XEJS2G;
-				INFOPLIST_FILE = "Study BuddyTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.fiu.com.Study-BuddyTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Study Buddy.app/Study Buddy";
-			};
-			name = Release;
-		};
-		6B904F721FD335AA00792320 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = S9W5XEJS2G;
-				INFOPLIST_FILE = "Study BuddyUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.fiu.com.Study-BuddyUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "Study Buddy";
-			};
-			name = Debug;
-		};
-		6B904F731FD335AA00792320 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = S9W5XEJS2G;
-				INFOPLIST_FILE = "Study BuddyUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.fiu.com.Study-BuddyUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = "Study Buddy";
 			};
 			name = Release;
 		};
@@ -532,24 +320,6 @@
 			buildConfigurations = (
 				6B904F6C1FD335AA00792320 /* Debug */,
 				6B904F6D1FD335AA00792320 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6B904F6E1FD335AA00792320 /* Build configuration list for PBXNativeTarget "Study BuddyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6B904F6F1FD335AA00792320 /* Debug */,
-				6B904F701FD335AA00792320 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6B904F711FD335AA00792320 /* Build configuration list for PBXNativeTarget "Study BuddyUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6B904F721FD335AA00792320 /* Debug */,
-				6B904F731FD335AA00792320 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
